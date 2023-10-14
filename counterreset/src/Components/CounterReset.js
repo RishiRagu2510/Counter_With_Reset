@@ -6,7 +6,7 @@ const CounterReset = () => {
     <div>
     <center>
     <button className="count" onClick={()=>setCount(count+1)}>
-    increment
+    increment+1
     </button>
     <button className="count" onClick={()=>{if(count>0)setCount(count-1)}}>
     decrement
